@@ -1,17 +1,17 @@
-#include "main.h"
+#include "main.h
 
 /**
- * print_alphabet - Make the alphabet
- * Return: void
- */
+* print_alphabet - Prints out lowercase fllowed by a nweline
+* Return: Returns 0
+*/
 
 void print_alphabet(void)
 {
-	char c;
 
-	for (c = 'a'; c <= 'z'; c++);
-	{
-		_putchar(c);
-	}
-	print_putchar('\n');
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		
+	_putchar(ch);
+	_putchar('\n');
 }
