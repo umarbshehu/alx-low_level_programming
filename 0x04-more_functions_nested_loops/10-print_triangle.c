@@ -14,7 +14,7 @@ void print_triangle(int size)
 	{
 		_putchar('\n');
 	}
-	esle
+	else
 	{
 		for (ro = 0; ro <= (size - 1); ro++)
 		{
@@ -22,7 +22,7 @@ void print_triangle(int size)
 			{
 				_putchar(' ');
 			}
-			for (tr = 0; tr <= ro; ro++)
+			for (rt = 0; rt <= ro; ro++)
 			{
 				_putchar('#');
 			}
