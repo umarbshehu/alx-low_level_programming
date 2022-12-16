@@ -8,7 +8,7 @@ void more_numbers(void)
 {
 	int times, num;
 
-	for (times = 0; times <= 9; times++)
+	for (times = 0; times < 10; times++)
 	{
 		for (num = 0; num <= 14; num++)
 		{
@@ -18,7 +18,7 @@ void more_numbers(void)
 			}
 
 			_putchar((num % 10) + '0');
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
