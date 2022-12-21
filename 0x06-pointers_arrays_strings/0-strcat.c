@@ -11,7 +11,7 @@ char *_str(char *dest, char *src)
 {
 	int i, n;
 
-	for (i = 0, dest[i] != '\0'; i++)
+	for (i = 0; dest[i] != '\0'; i++)
 	{
 	}
 
