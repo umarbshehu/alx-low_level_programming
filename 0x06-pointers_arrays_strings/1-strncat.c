@@ -1,20 +1,27 @@
 #include "main.h"
 
 /**
- * _memcpy - Entry point
- * @dest: input
- * @src: input
- * @n: input
+ * _strncat - a function that concatenates two strings
+ * @dest: copy to
+ * @src: copy from
+ * @n: n
  * Return: Always 0
  */
 
-char *memcpy(char *dest, char *src, unsigned int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	unsigned int i;
+	int i, co;
 
-	for (i = 0; i < n; i++)
-		dest[i] = src[i];
+	for (i = 0; dest[i] != '\0'; i++)
+	{
 
+	}
+
+	for (co = 0; co < n; co++)
+	{
+		dest[i + co] = src[0];
+		if (src[0] == '\0')
+			co = n;
+	}
 	return (dest);
-
 }
