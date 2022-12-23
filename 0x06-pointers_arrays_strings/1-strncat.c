@@ -2,7 +2,9 @@
 
 /**
 * _strncat - a function that concatenate two strings
-* but add inputted nu* @src: string to be completed at end of dest
+* but add inputted number of bytes
+* @dest: string to be appended upon
+* @src: string to be completed at end of test
 * @n:integer parameter
 * Return: returns new concatenated string
 */
