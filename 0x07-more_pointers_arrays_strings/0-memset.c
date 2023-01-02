@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memste - Entry point
+ * _memset - Entry point
  * @s: pointed destination
  * @b: constatnt byte
  * @n: bytes
